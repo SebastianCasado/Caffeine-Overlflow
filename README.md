@@ -4,13 +4,13 @@
 
 ## Repository Link
 https://github.com/SebastianCasado/Caffeine-Overlflow
-s
+
 ## Description
 >A web browser ran application that compares pricing for items at local retailers, as well as shows the distance from the user to the store so that the user can take into consideration time and gas costs. User can then build shopping lists for each retailer and print or email lists for use at the store. 
 
-The languages used to create this application are HTML, CSS-Bulma, JavaScript, JQuery and used two API servers.
+*The languages used to create this application are HTML, CSS-Bulma, JavaScript, JQuery and used two API servers.*
 
-## Installaton
+## Installation
 <!-- might remove this piece later
 Currently none, as this is a in web browser application. -->
 
