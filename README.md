@@ -11,7 +11,7 @@ https://github.com/SebastianCasado/Caffeine-Overlflow
 *The languages used to create this application are HTML, CSS-Bulma, JavaScript, JQuery and used two API servers.*
 
 ## Installation
-<!-- might remove this piece later
+<!-- might remove this piece 
 Currently none, as this is a in web browser application. -->
 
 ## APIs Used
