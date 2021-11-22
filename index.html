@@ -42,34 +42,103 @@
 
     <!-- create main to hold middle page and to help style flex/columns-->
     <main>
-
-        <!-- left column, search input field for item, layout TBD -->
-        <!-- format width of left column -->
-        <div>
-            <!-- format card -->
-            <div>
-                <h3>Search for Item:</h3>
-                <!-- create form -->
-                <form>
-                    <label ></label>
-                    <input placeholder="Enter Item"/>
-                    <button type="submit" class="btn">Get Best Price</button>
-                </form>
+        <!--Location Search-->
+        <section class="section">
+            <h2 class="title is-2">Location</h2>
+            <p class="subtitle is-4">Please enter your address to find store locations closest to you:</p>
+            <div class="columns">
+                <div class="column">
+                    <input class="input is-info" type="text" placeholder="Address: City, State & Zip Code"/>
+                </div>
+                <div class="column">
+                    <button class="button is-info">Enter</button>
+                </div>
             </div>
-        </div>
+        </section>
+        <!--End Location Search-->
 
-        <!-- show results, right column this layout TBD -->
-        <!-- format width of right column, probably alter to additional cards, for when search items return -->
-        <div>
-            <h2>Results</h2>
+        <!--Item Search for Comparison-->
+        <section class="section">
+            <h2 class="title is-2">Item Search</h2>
+            <p class="subtitle is-4">Enter the item name or description here to search:</p>
+            <div class="columns">
+                <div class="column">
+                    <input class="input is-info" type="text" placeholder="Enter Item Name or Brief Decription Here"/>
+                </div>
+                <div class="column">
+                    <button class="button is-info">Search</button>
+                </div>
+            </div>
+        </section>    
+        <!--End Item Search-->
+
+        <!--Results Displayed Using Cards-->
+        <section class="section">
+            <h2 class="title is-2">Results</h2>
             <!-- connection to JS file to bring in results -->
-            <div>
-
-                <!-- JSA team to help explain how they would like the mapping distance to be presented and if another container needed -->
-
+            <div class="columns">
+                <div class="column">
+                    <!--CARD 1 SEARCH RESULTS: TARGET-->
+                    <div class="card">
+                        <header class="card-header">
+                            <p class="card-header-title">
+                                Target
+                            </p>
+                        </header>
+                        <div class="media-content">
+                            <p class="title is-4">Item Name</p>
+                        </div>
+                        <div class="card-image">
+                            <figure class="image is-1by1">
+                                <img src="https://bulma.io/images/placeholders/480x480.png" alt="Placeholder image">
+                            </figure>
+                        </div>
+                        <div class="media-content">
+                            <p class="title is-4">Item Description</p>
+                            <h3 class="title is-3">Price</h3>
+                        </div>
+                        <footer class="card-footer">
+                            <a href="#" class="card-footer-item">Add to List</a>
+                        </footer>
+                    </div>
+                </div>
+                <div class="column">
+                    <!--CARD 2 SEARCH RESULTS: WALMART-->
+                    <div class="card">
+                        <header class="card-header">
+                            <p class="card-header-title">
+                                Walmart
+                            </p>
+                        </header>
+                        <div class="media-content">
+                            <p class="title is-4">Item Name</p>
+                        </div>
+                        <div class="card-image">
+                            <figure class="image is-1by1">
+                                <img src="https://bulma.io/images/placeholders/480x480.png" alt="Placeholder image">
+                            </figure>
+                        </div>
+                        <div class="media-content">
+                            <p class="title is-4">Item Description</p>
+                            <h3 class="title is-3">Price</h3>
+                        </div>
+                        <footer class="card-footer">
+                            <a href="#" class="card-footer-item">Add to List</a>
+                        </footer>
+                    </div>
+                </div>
             </div>
-        </div>
+        </section>
+        <!--End Results Section-->
+
+        <!--View Shopping List-->
+        <section class="section">
+            <h2 class="title is-2">View Shopping List</h2>
+            <button class="button is-info">Click Here to View List</button>
+        </section>
+        <!--End Shopping List-->
     </main>
+
     <!--Footer - Bulma Footer Layout-->
     <footer class="footer">
         <div class="content has-text-centered">
