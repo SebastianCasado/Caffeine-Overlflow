@@ -17,6 +17,7 @@
     <!-- Link to CSS file -->
     <link rel="stylesheet" href="./assets/css/style.css">
 </head>
+
 <body>
     <!--Header - Bulma Hero Layout-->
     <section class="hero is-info is-medium">
@@ -40,36 +41,37 @@
     </section>
     <!--End Header-->
 
-    <!-- create main to hold middle page and to help style flex/columns-->
-    <main>
-
-        <!-- left column, search input field for item, layout TBD -->
+    
+    <!-- left column, Retailer 1 shopping list -->
         <!-- format width of left column -->
         <div>
-            <!-- format card -->
+            <!-- format card? -->
             <div>
-                <h3>Search for Item:</h3>
-                <!-- create form -->
-                <form>
-                    <label ></label>
-                    <input placeholder="Enter Item"/>
-                    <button type="submit" class="btn">Get Best Price</button>
-                </form>
+                <h3>Target</h3>
+                <!-- create container for list to post to -->
+                <div>
+                    <!-- button to delete individual item off list, maybe hangs to the right of the item's title -->
+                    <button type="button"><i class="fas fa-trash"></i></button>
+                    <!-- maybe have warning pop when delete entire list is clicked? -->
+                    <button type="submit" class="btn">Delete List</button>
+                </div>
             </div>
         </div>
 
-        <!-- show results, right column this layout TBD -->
-        <!-- format width of right column, probably alter to additional cards, for when search items return -->
+        <!-- right column, Retailer 2 -->
+        <!-- format width of right column -->
         <div>
-            <h2>Results</h2>
-            <!-- connection to JS file to bring in results -->
+            <!-- format card? -->
             <div>
-
-                <!-- JSA team to help explain how they would like the mapping distance to be presented and if another container needed -->
-
+                <h3>Walmart</h3>
+                <!-- create container for list to post to -->
+                    <!-- button to delete individual item off list, maybe hangs to the right of the item's title -->
+                    <button type="button"><i class="fas fa-trash"></i></button>
+                    <!-- maybe have warning pop when delete entire list is clicked? -->
+                    <button type="submit" class="btn">Delete List</button>
             </div>
         </div>
-    </main>
+
     <!--Footer - Bulma Footer Layout-->
     <footer class="footer">
         <div class="content has-text-centered">
@@ -77,7 +79,7 @@
         </div>
     </footer>
     <!--End Footer-->
-    <!-- link JS File -->
-    <!-- <script src=""></script> -->
+
+    <!-- link JS file for Shopping List index -->
 </body>
 </html>
